@@ -1,0 +1,116 @@
+
+/* BEM */
+.presentacion {
+    background-color: blue;
+}
+.presentacion__titulo {
+    font-weight: bold ;
+}
+.presentacion__titulo--lista {
+    border: 3px solid red;
+}
+
+/* SAMCSS */
+
+main {
+    background-color: blueviolet;
+}
+.layout-section {
+    font-size: larger;
+}
+.section-action-button{
+color: aquamarine;
+}
+
+/* body{
+    background-color: blue;
+    margin: auto;
+    
+}
+
+
+.presentacion {
+    display: flex;
+    background-color: aqua;
+    margin: 30px ;
+    border: 8px solid red;
+    padding: 30px;
+}
+h1 {
+    color: rgb(72, 45, 5);
+    font-size: 80px;
+}
+
+.caja1{
+    background-color: hsl(271, 76%, 53%);
+    text-align:center;
+    margin: 40px;
+}
+.caja2 {
+    background-color: #5d64fd;
+    display: flex;
+}
+.caja3{
+    background-color: rgb(229, 229, 249);
+}
+
+aside {
+    background-color: brown;
+}
+main {
+    background-color: cadetblue;
+    padding: 5%;
+    display: flex;
+}
+.tabla{
+    background-color: #5d64fd;
+}
+.tabla tr {
+    background-color: rgb(235, 121, 40);
+}
+
+
+
+footer {
+    background-color: chartreuse;
+    text-align: right;
+    height: 150px;
+    padding: 20px;
+}
+form {
+
+   padding: 50px;
+}
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+}
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { 
+    .caja1{
+        font-size: 90px;
+
+    }
+ }
+ */
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { 
+.caja2{
+    background-color: brown;
+}
+ }
+ */
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { 
+.caja3 { 
+    display: none;
+}
+ }
+
+ */ 

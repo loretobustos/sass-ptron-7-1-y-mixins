@@ -1,0 +1,15 @@
+/* _mixins.scss */
+.section-action-button {
+  color: aquamarine;
+}
+
+/* Ejemplo de uso de mixins */
+.centro-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.centro-vertical {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

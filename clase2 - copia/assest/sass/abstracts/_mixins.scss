@@ -1,0 +1,14 @@
+/* _mixins.scss */
+
+// Mixin para centrar elementos horizontalmente
+@mixin center-horizontal {
+    display: flex;
+    justify-content: center;
+  }
+  
+  // Mixin para centrar elementos verticalmente
+  @mixin center-vertical {
+    display: flex;
+    align-items: center;
+  }
+  
